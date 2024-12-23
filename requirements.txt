@@ -1,1 +1,5 @@
 streamlit
+PyPDF2
+python-docx
+pydantic
+google-generativeai

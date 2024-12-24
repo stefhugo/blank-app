@@ -58,7 +58,7 @@ class CVSchema(BaseModel):
     skills: Optional[List[str]] = Field(None, description="List of skills of the candidate")
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyDTQWHApZj47R-KWX64-FKtruz_dfK6WFw"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 logging.info("Gemini API key configured directly in the script. This is not recommended for production.")
 
